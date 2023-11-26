@@ -1,0 +1,10 @@
+CREATE DATABASE empleados_crud;
+USE empleados_crud;
+CREATE TABLE empleados(
+	id INT PRIMARY KEY auto_increment,
+    nombre VARCHAR(100),
+    edad INT,
+    pais VARCHAR(100),
+    cargo VARCHAR(100),
+    anios INT
+);
